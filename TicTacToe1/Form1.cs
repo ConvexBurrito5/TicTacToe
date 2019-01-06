@@ -40,7 +40,6 @@ namespace TicTacToe1
             check();
             turn = !turn;
             b.Enabled = false;
-            turn_count = turn_count+1;
         }
 
         private void check()
