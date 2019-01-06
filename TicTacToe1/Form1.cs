@@ -40,13 +40,13 @@ namespace TicTacToe1
             check();
             turn = !turn;
             b.Enabled = false;
-            turn_count = turn_count+1;
-            Console.WriteLine(turn_count);
+            
 
         }
 
         private void check()
         {
+            turn_count = turn_count + 1;
             bool there_is_a_winner = false;
 
             //Horosonal Checks
@@ -133,8 +133,13 @@ namespace TicTacToe1
             else if((A3.Text == B2.Text) && (B2.Text == C1.Text))
                     there_is_a_winner = true;
             //all boxes full.
-            
 
+            //draw?
+            if (turn_count == 9)
+            {
+                MessageBox.Show("Draw!", "Good try");
+                Application.Restart();
+            }
 
             //winer describe
             if (there_is_a_winner)
@@ -146,19 +151,8 @@ namespace TicTacToe1
                     winner = "O";
 
                 MessageBox.Show(winner + " Wins!", "Yay!");
+                Application.Restart();
             }
-            else
-            {
-                if (turn_count == 9)
-                {
-                    MessageBox.Show("Draw !", "Good try");
-                }
-                else
-                {
-
-                }
-            }
-            
         }
 
         private void disableButtons()
@@ -183,6 +177,16 @@ namespace TicTacToe1
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
             
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
