@@ -171,15 +171,5 @@ namespace TicTacToe1
         {
             Application.Restart();
         }
-
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
