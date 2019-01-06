@@ -8,3 +8,13 @@ C:\Users\steve\source\repos\TicTacToe1\TicTacToe1\obj\Debug\TicTacToe1.csproj.Ge
 C:\Users\steve\source\repos\TicTacToe1\TicTacToe1\obj\Debug\TicTacToe1.csproj.CoreCompileInputs.cache
 C:\Users\steve\source\repos\TicTacToe1\TicTacToe1\obj\Debug\TicTacToe1.exe
 C:\Users\steve\source\repos\TicTacToe1\TicTacToe1\obj\Debug\TicTacToe1.pdb
+C:\Users\Matthew\Documents\GitHub\TicTacToe\TicTacToe1\bin\Debug\TicTacToe1.exe.config
+C:\Users\Matthew\Documents\GitHub\TicTacToe\TicTacToe1\bin\Debug\TicTacToe1.exe
+C:\Users\Matthew\Documents\GitHub\TicTacToe\TicTacToe1\bin\Debug\TicTacToe1.pdb
+C:\Users\Matthew\Documents\GitHub\TicTacToe\TicTacToe1\obj\Debug\TicTacToe1.csprojAssemblyReference.cache
+C:\Users\Matthew\Documents\GitHub\TicTacToe\TicTacToe1\obj\Debug\TicTacToe1.Form1.resources
+C:\Users\Matthew\Documents\GitHub\TicTacToe\TicTacToe1\obj\Debug\TicTacToe1.Properties.Resources.resources
+C:\Users\Matthew\Documents\GitHub\TicTacToe\TicTacToe1\obj\Debug\TicTacToe1.csproj.GenerateResource.cache
+C:\Users\Matthew\Documents\GitHub\TicTacToe\TicTacToe1\obj\Debug\TicTacToe1.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Documents\GitHub\TicTacToe\TicTacToe1\obj\Debug\TicTacToe1.exe
+C:\Users\Matthew\Documents\GitHub\TicTacToe\TicTacToe1\obj\Debug\TicTacToe1.pdb
