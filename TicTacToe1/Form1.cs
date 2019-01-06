@@ -20,9 +20,14 @@ namespace TicTacToe1
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Made by kevin!");
+            MessageBox.Show("Made by Kevin & Matt!\n(ConvexBurrito & Slainlight)");
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -40,8 +45,6 @@ namespace TicTacToe1
             check();
             turn = !turn;
             b.Enabled = false;
-            
-
         }
 
         private void check()
@@ -174,17 +177,17 @@ namespace TicTacToe1
             Application.Restart();
         }
 
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            pictureBox2.BackgroundImage = Properties.Resources.space1;
         }
 
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
