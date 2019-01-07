@@ -136,15 +136,8 @@ namespace TicTacToe1
             else if((A3.Text == B2.Text) && (B2.Text == C1.Text))
                     there_is_a_winner = true;
             //all boxes full.
-
-            //draw?
-            if (turn_count == 9)
-            {
-                MessageBox.Show("Draw!", "Good try");
-                Application.Restart();
-            }
-
-            //winer describe
+            
+            //winner describe
             if (there_is_a_winner)
             {
                 string winner = "";
@@ -154,6 +147,12 @@ namespace TicTacToe1
                     winner = "O";
 
                 MessageBox.Show(winner + " Wins!", "Yay!");
+                Application.Restart();
+            }
+            //draw?
+            if (turn_count == 9)
+            {
+                MessageBox.Show("Draw!", "Good try");
                 Application.Restart();
             }
         }
